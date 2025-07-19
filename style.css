@@ -1,0 +1,61 @@
+.main{
+    font-size: larger;
+}
+table{
+    height: 300px;
+    width: 360px;
+    text-align: center;
+    margin: auto;
+}
+tbody,thead{
+    border: 5px solid;
+}
+tbody{
+    height: 300px;
+}
+.header{
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    border: 5px solid;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+}
+input{
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 270px;
+    /* border: 2px solid red; */
+    padding-left: 20px;
+
+}
+.calendarbtn{
+    width: 60px;
+    background-color: white;
+    border: 2px solid;
+}
+.calendaraerobtn{
+    height: 60px;
+    width: 50px;
+    background-color: white;
+}
+.calendaraerobtnf{
+    width: 50px;
+    background-color: white;
+    rotate: 180deg;
+    border-right: 5px solid;
+    transform-box: content-box;
+}
+.calendaricn,.calendaraero{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
